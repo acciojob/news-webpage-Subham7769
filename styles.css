@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+body{
+    background-color: #f5f5f5;
+}
+header{
+    background-color: #011e29;
+    padding: 25px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+
+}
+.Latest-News,.Main-Article,.Pictorial-News{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.Latest-News,.Pictorial-News{
+    width: 30%;
+}
+.Pictorial-News>img{
+    width: 100%;
+
+}
